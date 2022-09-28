@@ -73,7 +73,7 @@ section {
 }
 
 .logo {
-    width: 70%;
+    width: 100%;
 }
 
 .nav {
@@ -88,7 +88,7 @@ section {
 }
 
 .nav__item{
-    font-size: 1rem;
+    font-size: .8rem;
     list-style: none;
     margin: 0 0 0 7px;
 }
@@ -317,6 +317,12 @@ footer .copyright p{
     color: #413c3c;
 }
 
+@media (min-width: 600px){
+    .nav__item{
+        font-size: 1.2rem;
+    }
+}
+
 @media (min-width: 1000px) {
     .nav__list {
         display: flex;
@@ -325,7 +331,7 @@ footer .copyright p{
 
       /* margin between items */
       .nav__item {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         margin: 0 0 0 3em;
     }
 
