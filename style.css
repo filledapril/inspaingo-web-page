@@ -595,6 +595,8 @@ nav .navigation ul li .red--hover:hover {
 
 #cooper .cooper-cards .cooper-card p {
     font-size: .9rem;
+    text-align:justify;
+    margin: 5px 0 5px 0;
 }
 
 #cooper .cooper-card .cooper-card--uni{
@@ -615,6 +617,12 @@ nav .navigation ul li .red--hover:hover {
     background: transparent;
     cursor: pointer;
     transition: all 0.6s;
+}
+
+#cooper .cooper-card--lan {
+    width: 100px;
+    max-width: 100%;
+    margin-top: 30px;
 }
 
 
@@ -646,18 +654,18 @@ footer h3 {
 
 footer li {
     list-style: none;
-    color: #8a857b;
     padding: 10px 0;
     font-size: .95rem;
     cursor: pointer;
     transition: .3s ease;
 }
 
-footer li:hover {
+footer li a:hover {
     color: #f9f9ff;
 }
 
-footer li {
+footer li a{
+    text-decoration: none;
     color: #8a857b;
 }
 
