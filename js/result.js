@@ -8,10 +8,10 @@ resultContainers.forEach((container, i) => {
     let containerWidth = containerDimensions.width;
 
     nextBtn[i].addEventListener('click', () => {
-        container.scrollLeft += containerWidth;
+        container.scrollLeft += containerWidth / 2;
     })
 
     preBtn[i].addEventListener('click', () => {
-        container.scrollLeft -= containerWidth;
+        container.scrollLeft -= containerWidth / 2;
     })
 })

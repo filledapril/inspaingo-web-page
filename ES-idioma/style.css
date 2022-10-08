@@ -73,7 +73,7 @@ section {
 }
 
 .logo {
-    width: 100%;
+    width: 10rem;
 }
 
 .nav {
@@ -284,12 +284,15 @@ footer li {
     transition: .3s ease;
 }
 
-footer li:hover {
-    color: #f9f9ff;
+
+
+footer li a {
+    text-decoration: none;
+    color: #8a857b;
 }
 
-footer li {
-    color: #8a857b;
+footer li a:hover {
+    color: #f9f9ff;
 }
 
 
